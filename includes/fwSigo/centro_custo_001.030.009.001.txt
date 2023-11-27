@@ -1,0 +1,15 @@
+codColigada : 3
+codCentroCusto : 001.030.009.001
+centroCusto : CEMIG DRG GGE RECRUTAM. E SELEÇÃO
+codFilial : 1
+filial : PERSONAL ENERGIA EIRELI
+codDiretoria : 030
+diretoria : 030
+codGerencia : 009
+gerencia : 009
+codArea : 001
+area : 001
+codSpervisao : -2
+supervisao : NÃO APLICAVEL
+codEquipe : -2
+equipe : NÃO APLICAVEL

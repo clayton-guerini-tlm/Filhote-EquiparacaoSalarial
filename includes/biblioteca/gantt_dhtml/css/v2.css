@@ -1,0 +1,101 @@
+/*
+-----------------------------------------------
+DHTMLX LTD. (c)2007
+www.dhtmlx.com CSS
+GLOBAL
+version:  2007.12.03
+----------------------------------------------- */
+
+
+
+/*right blocks =========================================================================================*/
+
+/*.bls .inFresh{
+	width: 230px;
+}*/
+
+.bl{
+	width: 264px;
+	margin: 0;
+	padding-bottom: 10px;
+}
+
+
+.bl_new{
+	width: 234px;
+	height: 40px;
+    padding: 8px 0 0 10px;
+}
+.bl_new .version{
+    font: bold 14px/16px Trebuchet MS, Arial, Tahoma;
+    color: #0482AD;
+}
+
+/*  BLOCK -- Clear*/
+.bl_head_clear{
+	width: 264px;
+	height: 45px;
+	background-image: url(/codebase/images/subcontent/bl_head_clear.gif);
+}
+
+/*  BLOCK -- Clear Collapsed*/
+.bl_head_clear_c{
+	width: 264px;
+	height: 37px;
+	background-image: url(/codebase/images/subcontent/bl_head_clear_c.gif);
+	background-repeat: no-repeat;
+}
+
+/*  BLOCK -- Supported Browsers*/
+
+
+/*  BLOCK -- middle space*/
+.bl_middle{
+	margin: 0;
+	padding: 0 18px 4px 18px;
+	background: url(/codebase/images/subcontent/bl_middle.gif) repeat-y;
+	xfont: 11px/14px Tahoma, Arial, Helvetica, sans-serif;
+	text-align: left;
+}
+
+ul.bl_middle, li.bl_middle, a.bl_middle, a.bl_middle:active, a.bl_middle:hover, a.bl_middle:visited{
+	list-style: none;
+	color: #000000;
+	font: 11px/18px Tahoma, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	background: url(/codebase/images/null.gif);
+}
+
+div.bl_middle .customer{
+	color: #808080;
+	text-align: right;
+	padding-bottom: 12px;
+}
+
+.bl_bottom{
+	width: 264px;
+	height: 11px;
+	background: url(/images/bl_bottom.gif) top no-repeat;
+}
+
+/*list without points*/
+ul.nopoint{
+	list-style:none;
+	margin: 0px;
+	padding:0px;
+}
+
+
+
+/*added in v.3*/
+.bl h2{
+    font: bold 14px/16px Trebuchet MS, Arial, Tahoma;
+	color: #0482AD;
+	margin: 0 0 6px 40px;
+    line-height:35px;
+}
+.bl ul{
+     padding-left:20px;
+}
+

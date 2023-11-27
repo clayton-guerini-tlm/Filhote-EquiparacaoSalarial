@@ -1,0 +1,853 @@
+﻿@charset "utf-8";
+/* CSS TELEMONT */
+
+p.sucesso{
+	color: #0000CC;
+	font-family: Calibri, Verdana, Arial, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+}
+p.atencao{
+	color: #CC0000;
+	font-family: Calibri, Verdana, Arial, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+}
+
+
+body {
+	background-color:#DDEEFF;
+	text-align:center;
+	border:0;
+	font-family: Arial, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	margin: 0;
+	padding: 0;
+}
+
+	#div_geral{
+		width:1071px;
+		margin:0 auto;            
+		text-align:center;   
+		/*margin-top :-15px ;*/
+		font-family: Arial, Arial, Helvetica, sans-serif;
+		font-size: 10px;
+		/*min-height: 450px;*/
+	}
+	
+		.div_topo {
+			margin-top:5px;			
+			color: #FFFFFF;
+		}
+		
+		.div_menu {
+			margin-top:3px;
+		}
+		
+		.div_meio{
+			margin-top:3px;
+			text-align:justify;
+		}		
+		
+
+.calendario {
+	BORDER-RIGHT: thin; BACKGROUND-POSITION: center center; BORDER-TOP: thin; FONT-SIZE: 10px; BACKGROUND-IMAGE: url(../imagens/vcalendar.jpg); BORDER-LEFT: thin; WIDTH: 18px; 
+	CURSOR: pointer; BORDER-BOTTOM: thin; BACKGROUND-REPEAT: no-repeat; FONT-FAMILY: "Calibri"; HEIGHT: 15px; BACKGROUND-COLOR: #ffffff
+}
+
+
+/* estilo de link */
+
+a:link {
+	color: #0000CC;
+	text-decoration: none;
+}
+a:visited {
+	color: #0000CC;
+	text-decoration: none;
+}
+a:hover {
+	color: #003399;
+	text-decoration: none;
+}
+a:active {
+	color: #0000CC;
+	text-decoration: none;
+}
+
+/* fim estilo de link */
+
+table.fundo td {
+	background-color:#437;
+	color:#333333;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:normal;
+	padding-left: 8px;
+	padding-right: 8px;
+	border-style:solid;
+	border-spacing:0px;
+	border-collapse:collapse;
+	border-width:1px;
+	border-color:#CCCCCC;
+	height:30px;
+}
+table.fundo {
+	border-collapse:collapse;
+}
+.cabecalho_tr {
+	/* cabecalho da tabela */	
+	background-color:#F5F5F5;
+	text-align:center;
+	font-weight:bold;
+	font-size:14px;
+	color:#0066A5;
+}
+
+
+.subcabecalho_tr {
+	/* sub cabecalho da tabela */	
+	background-color:#efefef;
+	text-align:center;
+}
+
+.subcabecalho_tr_n2 {
+	/* sub cabecalho nvel 2 da tabela */	
+	background-color:#FFFFFF;
+	text-align:center;
+}
+
+.subcabecalho_tr_prod_la {
+	/* sub cabecalho da tabela */	
+	background-color:#0099FF;
+	text-align:center;
+	color:#FFFFFF;
+}
+
+.selecionada_tr {
+	/* cor do onmouseover */	
+	background-color:#DDEEFF;
+	text-align:center;
+}
+
+
+.alterar_cor_branco {
+	/* qualquer TR q tenha esta class ira alterar de cor com o passar do mouse */	
+	background-color:#EEEFFF;
+	text-align:center;
+}
+
+.alterar_cor_cinza {
+	/* qualquer TR q tenha esta class ira alterar de cor com o passar do mouse */	
+	background-color:#fefefe;
+	text-align:center;
+}
+
+.tr_cor_branco_marcado {
+  /* Será utilizada com JavaScript para marcar tr's com checkboxex selecionados */
+  background-color:#DDDDFF;
+	text-align:center;
+}
+
+.tr_cor_branco {
+	/* qualquer TR q tenha esta class ira alterar de cor com o passar do mouse */	
+	background-color:#EEEFFF;
+	text-align:center;
+}
+ 
+.tr_cor_verde {
+	/* qualquer TR q tenha esta class ira alterar de cor com o passar do mouse */	
+	background-color:#6C6;
+	text-align:center;
+}
+
+.tr_cor_vermelho {
+	/* qualquer TR q tenha esta class ira alterar de cor com o passar do mouse */	
+	background-color: #F99;
+	text-align:center;
+}
+
+.tr_cor_vermelho_escuro {
+	/* qualquer TR q tenha esta class ira alterar de cor com o passar do mouse */	
+	background-color: #FF5E5E;
+	text-align:center;
+}
+
+.tr_cor_amarelo {
+	/* qualquer TR q tenha esta class ira alterar de cor com o passar do mouse */	
+	background-color:#FF9;
+	text-align:center;
+}
+
+.tr_cor_azul {
+	/* qualquer TR q tenha esta class ira alterar de cor com o passar do mouse */	
+	background-color:#3299CC;
+	text-align:center;
+}
+
+.tr_cor_amarelinho {
+	/* qualquer TR q tenha esta class ira alterar de cor com o passar do mouse */	
+	background-color:#FFE;
+	text-align:center;
+}
+.tr_cor_roxo {
+	/* qualquer TR q tenha esta class ira alterar de cor com o passar do mouse */	
+	background-color:#cc99ff;
+	text-align:center;
+}
+.tr_cor_laranja {
+	/* qualquer TR q tenha esta class ira alterar de cor com o passar do mouse */	
+	background-color:#ffa500;
+	text-align:center;
+}
+ 
+.tr_cor_preto {
+	/* qualquer TR q tenha esta class ira alterar de cor com o passar do mouse */	
+	background-color:#FFF;
+	text-align:center;
+}
+.tr_cor_cinza {
+	/* qualquer TR q tenha esta class ira alterar de cor com o passar do mouse */	
+	background-color:#fefefe;
+	text-align:center;
+}
+
+
+.tr_cor_cinza_escuro {
+	/* qualquer TR q tenha esta class ira alterar de cor com o passar do mouse */	
+	background-color:#666666;
+	text-align:center;
+}
+.tr_cor_preto_fonte_branco {
+	/* qualquer TR q tenha esta class ira alterar de cor com o passar do mouse */	
+	background-color:#708090;
+        font-weight:bold;
+	text-align:center;
+	color:#fff;
+}
+
+.valor_preto{
+	text-align:center;
+	font-weight:bold;
+	font-size:12px;
+}
+
+.valor_vermelho{
+	text-align:center;
+	font-weight:bold;
+	font-size:12px;
+	color:#DD0000;
+}
+
+
+.valor_vermelhoSimples{
+	text-align:center;
+	color:#DD0000;
+}
+
+.valor_amarelo{
+	text-align:center;
+	font-weight:bold;
+	font-size:12px;
+	color:#FFBB00;
+}
+
+.valor_verde{
+	text-align:center;
+	font-weight:bold;
+	font-size:12px;
+	color:#00CC00;
+}
+
+.valor_azul{
+	text-align:center;
+	font-weight:bold;
+	font-size:12px;
+	color:#888FFF;
+}
+.valor_roxo{
+	text-align:center;
+	font-weight:bold;
+	font-size:12px;
+	color:#cc99ff;
+}
+
+.porc_relatorio{
+	font-size:20px;
+	font-weight:bold;
+}
+
+.div_carregando_relatorio{
+	width: 200px; position: relative; left: 50%; margin-left: -100px;
+	height:100px;
+	text-align:center;
+	display:none;
+
+}
+.div_oculta{
+	display:none;
+}
+.div_formulario_terminal{
+	width: 300px; position: relative; left: 50%; margin-left: -150px;
+	height:150px;
+	text-align:center;
+	display:none;
+}
+
+.span_relatorio{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000000;
+	border:none;
+	border-width:0px;
+	padding:0px 5px 0px 5px;
+	height:25px;
+}
+
+.span_carregando_relatorio{
+	position:relative;
+	top:40px;
+	font-size:12px;
+	color:#0000FF;
+
+}
+.header {
+	background-color:#DFEFFF;
+	background-repeat:repeat-x;
+	color:#333333;
+	font-weight:bold;
+	height:30px;
+	font-size:11px;
+	border-bottom-width:1px;
+	border-color:#666666;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.base {
+	background-color:#333333;
+	color:#FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+}
+table.lista {
+	border-collapse:collapse;
+}
+
+table.lista td {
+	padding-left: 8px;
+	padding-right: 8px;
+	border-style:solid;
+	border-spacing:0px;
+	border-collapse:collapse;
+	border-width:1px;
+	border-color:#CCCCCC;
+	color:#333333;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:normal;
+}
+
+
+.box_relatorio{
+	border:solid;
+	border-width:1px;
+	border-collapse: collapse;
+	background-color:#FFFFFF;
+}
+
+
+
+.box_relatorio td{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	
+	border:solid;
+	border-width:1px;
+	padding:0px 5px 0px 5px;
+	border-color:#DEDEDE;
+	height:25px;
+	color:#000066;
+}
+
+.box_relatorio th{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	border:solid;
+	border-width:1px;
+	padding:0px 5px 0px 5px;
+	border-color:#DEDEDE;
+	height:25px;
+	color:#000066;
+}
+
+.box_relatorio a:hover{
+	color:#FF3300;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:12px;
+}
+
+.box_relatorio a:link{
+	color:#0099FF;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:12px;
+}
+
+.box_relatorio a:visited{
+	color:#0099FF;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:12px;
+}
+
+.box_relatorio a:active{
+	color:#FF3300;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:12px;
+}
+
+/* box do producao la */
+
+.box_relatorio_la{
+	border:solid;
+	border-width:1px;
+	border-color:#DEDEDE;
+	border-collapse: collapse;
+	width:100%;
+	background-color:#FFFFFF;
+}
+
+.box_relatorio_la tr{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#333333;
+	border:solid;
+	border-width:1px;
+	padding:0px 0px 0px 0px;
+	border-color:#DEDEDE;
+	height:25px;
+}
+
+.box_relatorio_la td{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#333333;
+	padding:0px 0px 0px 0px;
+	height:25px;
+}
+
+.box_relatorio_la td{
+	color:#000066;
+}
+
+.box_relatorio_la a:hover{
+	color:#FF3300;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:12px;
+}
+
+.box_relatorio_la a:link{
+	color:#0099FF;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:12px;
+}
+
+.box_relatorio_la a:visited{
+	color:#0099FF;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:12px;
+}
+
+.box_relatorio_la a:active{
+	color:#FF3300;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:12px;
+}
+
+.box_dados{
+	border-width:0px;
+	background-color:#FFFFFF;
+}
+
+.box_relatorio_la td{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#333333;
+	padding:0px 1px 0px 1px;
+	height:25px;
+}
+
+.box_titulo{
+	width:100%;
+	
+	}
+
+.box_relatorio_tit {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#000000;
+	height:25px;
+	padding-top:10px;
+	width:264px;
+	text-align:center;
+}
+
+.box_botao{
+	background-image:url(../imagens/botao_azul.jpg);
+	background-repeat:repeat-x;
+	background-position:0 0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	width:254px;
+	height:20px;
+	padding:12px 5px 8px 5px;
+	text-align:center;
+	border-color:#DDEEFF;
+	border-width:1px;
+	display:block;
+}
+.box_botao:hover{background-position:0px -40px;}
+.box_botao a{
+	color:#333333;
+}
+.box_botao a:hover{color:#000066; text-decoration:none;}
+
+/*  fila ritmo */
+
+.cabecalho_td_verde{
+	background-color:#55FF55;
+	text-align:center;
+	font-weight:bold;
+	font-size:12px;
+	color:#000000;
+}
+
+.cabecalho_td_verde_escuro{
+	background-color:#33CC00;
+	text-align:center;
+	font-weight:bold;
+	font-size:12px;
+	color:#000000;
+}
+
+.cabecalho_td_azul{
+	background-color:#55FFFF;
+	text-align:center;
+	font-weight:bold;
+	font-size:12px;
+	color:#000000;
+}
+
+.cabecalho_td_amarelo{
+	background-color:#FFFF00;
+	text-align:center;
+	font-weight:bold;
+	font-size:12px;
+	color:#000000;
+}
+
+.cabecalho_td_laranja{
+	background-color:#FF9933;
+	text-align:center;
+	font-weight:bold;
+	font-size:12px;
+	color:#000000;
+}
+
+.cabecalho_td_vermelho {
+	background-color:#FF5555;
+	text-align:center;
+	font-weight:bold;
+	font-size:12px;
+	color:#000000;
+}
+
+.titulo_negrito{
+	font-weight:bold;
+}
+
+input, select{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight:bold;
+	color:#000000;
+	border-style:solid;
+	border-width:1px;
+	border-color:#00CCFF;
+}
+input[type="checkbox"], input[type="radio"]{
+	color:#000000;
+	border-style:solid;
+	border-width:0px;
+}
+
+TEXTAREA{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight:bold;
+	color:#000000;
+	border-style:solid;
+	border-width:1px;
+	border-color:#00CCFF;
+	overflow:auto;
+}
+
+input[type="submit"], input[type="reset"],input[type="button"] {
+
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight:bold;
+	color:#000000;
+	border-style:solid;
+	border-width:1px;
+	border-color:#00CCFF;
+
+}
+
+input[type="submit"][disabled], input[type="reset"][disabled],input[type="button"][disabled]{
+	color:#BEBEBE;
+	border-style:solid;
+	border-width:1px;
+	border-color:#BEBEBE;
+}
+
+/* LOGIN */
+
+.div_login {
+	position:relative;
+	top:25%;
+	left:45%;
+	text-align:left;
+	width:300px;
+	height:50%;
+}
+
+.div_msg_login {
+
+	position:absolute;
+	top:56%;
+	width:80%;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight:bold;
+	color:#FF0000;
+}
+
+.div_cadastro {
+	position:relative;
+	top:50px;
+	left:294px;
+	text-align:left;
+	width:300px;
+	height:100px;
+}
+
+.div_login_rodape {
+	position:absolute;
+	bottom:110px;
+	*bottom:10px;
+	width:1024px;
+	height:10px;
+	text-align:center;
+}
+
+.txt_login {
+	text-align:left;
+}
+
+.tel_login{
+	font-size:20px;
+	font-weight:bold;
+	padding:2px;
+}
+
+.tr_destacada{
+  background-color:#ffaa00;
+}
+
+body div#trava_janela{
+  /*display:none; */
+  filter:alpha(opacity=60);
+  position: absolute;
+  z-index:500;
+  top: 0px;
+  left: 0px;
+  background-color: #fff;
+  opacity: 0.5;
+}
+
+table tr .nome_campo { 
+  text-align:right;
+  font-weight:bold;
+  font-size:11px;
+  text-transform: uppercase;
+}
+
+table.box_relatorio tfoot tr td{
+  text-align:right;
+  padding-right:20px;
+  background-color:#fefee0;
+}
+
+/*criado para os totais da quantificação */
+table.box_relatorio tfoot .totais{
+  text-align:left;
+  padding-right:20px;
+  border-color:#00F;
+  border: 5px solid;;
+  
+}
+
+table.box_relatorio tfoot .totais table tr td{
+  text-align:left;
+  border: 0px solid;  
+}
+
+form{ /* Correção do Espaçamento de formulário no IE. */
+	margin:0;
+	padding:0;
+}
+
+/* BOX ADSL */
+
+.box_adsl{
+	border:solid;
+	border-width:1px;
+	border-collapse: collapse;
+	background-color:#FFFFFF;
+}
+
+.box_adsl td{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#333333;
+	border:solid;
+	border-width:1px;
+	padding:0px 5px 0px 5px;
+	border-color:#DEDEDE;
+	height:25px;
+}
+
+.box_adsl td{
+	color:#000000;
+}
+.box_adsl a:hover{
+	color:#006;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:12px;
+}
+
+.box_adsl a:link{
+	color:#006;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:12px;
+}
+
+.box_adsl a:visited{
+	color:#009;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:12px;
+}
+
+.box_adsl a:active{
+	color:#006;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:12px;
+}
+
+table tr .adsl_valor { 
+  text-align:left;
+  font-size:14px;
+  color:#000000;
+  background-color:#FFFFFF;  
+}
+
+table tr .adsl_valor_centro { 
+  text-align:center;
+  font-size:14px;
+  color:#000000;
+  background-color:#FFFFFF;  
+}
+
+table tr .adsl_campo { 
+  text-align:right;
+  color:#000066;
+  background-color:#efeeee;
+}
+#botao_fechar{
+  background-image: url("../imagens/del2.gif");
+  background-repeat:no-repeat;
+  cursor:pointer;
+}
+div #botao_fechar:hover{
+  background-image: url("../imagens/del_o.gif"); 
+}
+.baldinho{
+
+	height:150px;
+	width:200px;
+	background-color:#00CC00;
+	border:solid 1px #FF0000; 
+    z-index:3000;    
+    position: fixed!important; 
+    position: absolute;        
+    bottom:0px;
+    padding:4px 15px 4px 15px;
+    background-color:#ffffe5;    
+    font: 9pt tahoma,verdana;    
+    color:#000;
+    font-weight:bold;    
+    margin: 0;
+    text-align: center;	
+	right: 0px;		
+/*	right: auto;*/
+	right: expression( ( 10 + ( ignoreMe2 = document.documentElement.scrollRight ? document.documentElement.scrollRight : document.body.scrollRight ) ) + 'px' );
+  	bottom: expression( ( 10 + ( ignoreMe = document.documentElement.scrollBottom ? document.documentElement.scrollbottom : document.body.scrollbottom ) ) + 'px' );
+}
+.ui-state-highlight {border: 1px solid #fad42e; background: #fbec88 url(../imagens/ui-bg_flat_55_fbec88_40x100.png) 50% 50% repeat-x; color: #363636;}
+.ui-corner-all { -moz-border-radius: 5px; -webkit-border-radius: 5px; }
+.ui-icon-info { background-position: -16px -144px; } 
+
+.error-form{
+	border-color: rgb(255, 0, 0);
+	background-color: rgb(255, 255, 153);
+}
+
+input:focus { 
+	/*border-color:#dddd00;*/
+}
+select:focus { 
+	/*border-color:#dddd00;*/
+}
+TEXTAREA:focus { 
+	/*border-color:#dddd00;*/
+}
+/* Alterar borda de campo com erro! */
+.campo_erro{
+    border-color: #FF0000;
+}
+
+/* fix para box aberto no autocomplete */
+body ul.ui-autocomplete { width: 280px; text-align: left; }
+
+.rodape_validado{
+	width:1071px;
+	height: 50px;
+	margin:0 auto;
+	/*border: 1px solid red;*/
+	text-align: right;
+}

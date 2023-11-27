@@ -1,0 +1,206 @@
+@charset "utf-8";
+/* CSS TELEMONT */
+
+body {
+	background-color:#DDEEFF;
+	text-align:center;
+	border:0;
+}
+
+#div_geral{
+	width:1024px;
+	margin:0 auto;            
+	text-align:center;   
+	*margin-top :-15px ;
+	font-family: Arial, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+.div_topo {
+	margin-top:5px;			
+	color: #FFFFFF;
+}
+	
+.div_menu {
+	margin-top:3px;
+}
+	
+.div_meio{
+	margin-top:3px;
+	text-align:justify;
+}		
+		
+
+.cabecalho_tr {
+	/* cabecalho da tabela */	
+	background-color:#F5F5F5;
+	text-align:center;
+	font-weight:bold;
+	font-size:14px;
+	color:#0066A5;
+}
+
+
+.subcabecalho_tr {
+	/* sub cabecalho da tabela */	
+	background-color:#efefef;
+	text-align:center;
+}
+
+.valor_vermelho{
+	text-align:center;
+	font-weight:bold;
+	font-size:12px;
+	color:#DD0000;
+}
+
+.box_relatorio{
+	border:solid;
+	border-width:1px;
+	border-collapse: collapse;
+	background-color:#FFFFFF;
+}
+
+.box_relatorio td{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#333333;
+	border:solid;
+	border-width:1px;
+	padding:0px 5px 0px 5px;
+	border-color:#DEDEDE;
+	height:25px;
+}
+
+.box_relatorio td{
+	color:#000066;
+}
+.box_relatorio a:hover{
+	color:#FF3300;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:12px;
+}
+
+.box_relatorio a:link{
+	color:#0099FF;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:12px;
+}
+
+.box_relatorio a:visited{
+	color:#0099FF;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:12px;
+}
+
+.box_relatorio a:active{
+	color:#FF3300;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:12px;
+}
+
+.box_relatorio.fim{
+	bottom: 0;
+    position: fixed;
+}
+
+.tr_cor_branco {
+	/* qualquer TR q tenha esta class ira alterar de cor com o passar do mouse */	
+	background-color:#EEEFFF;
+	text-align:center;
+}
+
+.tr_cor_cinza {
+	/* qualquer TR q tenha esta class ira alterar de cor com o passar do mouse */	
+	background-color:#fefefe;
+	text-align:center;
+}
+
+input, select{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight:bold;
+	color:#000000;
+	border-style:solid;
+	border-width:1px;
+	border-color:#00CCFF;
+}
+
+input[type="submit"], input[type="reset"],input[type="button"] {
+
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight:bold;
+	color:#000000;
+	border-style:solid;
+	border-width:1px;
+	border-color:#00CCFF;
+
+}
+
+.div_carregando_relatorio{
+	width: 300px; position: relative; left: 50%; margin-left: -150px;
+	height:100px;
+	text-align:center;
+	display:none;
+}
+
+.span_carregando_relatorio{
+	position:relative;
+	top:10px;
+	font-size:12px;
+}
+
+/* LOGIN */
+
+.div_login {
+	position:relative;
+	margin: 20px auto;
+	text-align:left;
+	width:220px;
+	height:50%;
+}
+
+.div_carregando_login {
+	position:relative;
+	top:35%;
+	left:38%;
+	text-align:center;
+	width:300px;
+	height:50%;
+}
+
+.div_msg_login {
+
+	position:absolute;
+	top:60%;
+	width:80%;
+	*width:100%;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight:bold;
+	color:#FF0000;
+}
+
+.div_login_rodape {
+	position:absolute;
+	bottom:110px;
+	width:1024px;
+	height:10px;
+	text-align:center;
+}
+
+.txt_login {
+	text-align:left;
+}
+
+.tel_login{
+	font-size:20px;
+	font-weight:bold;
+	padding:2px;
+}
