@@ -1,0 +1,15 @@
+/*Customização DataTable */
+.nRegistros{
+
+	padding-left: 7em !important;
+	padding-top: 0.75em !important;
+	font-size: 1.2em !important;
+
+}
+
+.pesquisar{
+
+	padding-right: 1.1em !important; 
+	font-size: 1.2em;
+}
+

@@ -1,0 +1,359 @@
+.sg-menu,
+.sg-menu ul,
+.sg-menu ul li,
+.sg-menu ul li a,
+.sg-menu .menu-button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    line-height: 1;
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 89 !important;
+}
+
+.sg-menu:after,
+.sg-menu > ul:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.sg-menu .menu-button {
+    display: none;
+}
+.sg-menu {
+    font-family: Montserrat, sans-serif;
+    background: repeat-x 0px -114px #006699;
+}
+.sg-menu > ul > li {
+    float: left;
+}
+.sg-menu.align-center > ul {
+    font-size: 0;
+    text-align: center;
+}
+.sg-menu.align-center > ul > li {
+    display: inline-block;
+    float: none;
+}
+.sg-menu.align-center ul ul {
+    text-align: left;
+}
+.sg-menu.align-right > ul > li {
+    float: right;
+}
+.sg-menu > ul > li > a {
+    padding: 17px;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.sg-menu > ul > li:hover > a {
+    color: #dddddd;
+}
+.sg-menu > ul > li.has-sub > a {
+    padding-right: 30px;
+}
+.sg-menu > ul > li.has-sub > a:after {
+    position: absolute;
+    top: 22px;
+    right: 11px;
+    width: 8px;
+    height: 2px;
+    display: block;
+    background: #dddddd;
+    content: '';
+}
+.sg-menu > ul > li.has-sub > a:before {
+    position: absolute;
+    top: 19px;
+    right: 14px;
+    display: block;
+    width: 2px;
+    height: 8px;
+    background: #dddddd;
+    content: '';
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+.sg-menu > ul > li.has-sub:hover > a:before {
+    top: 23px;
+    height: 0;
+}
+.sg-menu ul ul {
+    position: absolute;
+    left: -9999px;
+}
+.sg-menu.align-right ul ul {
+    text-align: right;
+}
+.sg-menu ul ul li {
+    height: 0;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+.sg-menu li:hover > ul {
+    left: auto;
+}
+.sg-menu.align-right li:hover > ul {
+    left: auto;
+    right: 0;
+}
+.sg-menu li:hover > ul > li {
+    height: 35px;
+}
+.sg-menu ul ul ul {
+    margin-left: 100%;
+    top: 0;
+}
+.sg-menu.align-right ul ul ul {
+    margin-left: 0;
+    margin-right: 100%;
+}
+.sg-menu ul ul li a {
+    border-bottom: 1px solid rgba(150, 150, 150, 1.15);
+    padding: 11px 15px;
+    width: 100%;    
+    font-size: 12px;
+    text-decoration: none;
+    color: #dddddd;
+    font-weight: 400;
+    background: repeat-x 0px -114px #006699;
+}
+.sg-menu ul ul li:last-child > a,
+.sg-menu ul ul li.last-item > a {
+    border-bottom: 0;
+}
+.sg-menu ul ul li:hover > a,
+.sg-menu ul ul li a:hover {
+    color: #ffffff;
+}
+.sg-menu ul ul li.has-sub > a:after {
+    position: absolute;
+    top: 16px;
+    right: 11px;
+    width: 8px;
+    height: 2px;
+    display: block;
+    background: #dddddd;
+    content: '';
+}
+.sg-menu.align-right ul ul li.has-sub > a:after {
+    right: auto;
+    left: 11px;
+}
+.sg-menu ul ul li.has-sub > a:before {
+    position: absolute;
+    top: 13px;
+    right: 14px;
+    display: block;
+    width: 2px;
+    height: 8px;
+    background: #dddddd;
+    content: '';
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+.sg-menu .align-right ul ul li.has-sub > a:before {
+    right: auto;
+    left: 14px;
+}
+.sg-menu ul ul > li.has-sub:hover > a:before {
+    top: 17px;
+    height: 0;
+}
+@media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+    .sg-menu {
+        width: 100%;
+    }
+    .sg-menu ul {
+        width: 100%;
+        display: none;
+    }
+    .sg-menu.align-center > ul {
+        text-align: left;
+    }
+    .sg-menu ul li {
+        width: 100%;
+        border-top: 1px solid rgba(120, 120, 120, 0.2);
+    }
+    .sg-menu ul ul li,
+    .sg-menu li:hover > ul > li {
+        height: auto;
+    }
+    .sg-menu ul li a,
+    .sg-menu ul ul li a {
+        width: 100%;
+        border-bottom: 0;
+    }
+    .sg-menu > ul > li {
+        float: none;
+    }
+    .sg-menu ul ul li a {
+        padding-left: 25px;
+    }
+    .sg-menu ul ul ul li a {
+        padding-left: 35px;
+    }
+    .sg-menu ul ul li a {
+        color: #dddddd;
+        background: none;
+    }
+    .sg-menu ul ul li:hover > a,
+    .sg-menu ul ul li .active > a {
+        color: #ffffff;
+    }
+    .sg-menu ul ul,
+    .sg-menu ul ul ul,
+    .sg-menu .align-right ul ul {
+        position: relative;
+        left: 0;
+        width: 100%;
+        margin: 0;
+        text-align: left;
+    }
+    .sg-menu > ul > li.has-sub > a:after,
+    .sg-menu > ul > li.has-sub > a:before,
+    .sg-menu ul ul > li.has-sub > a:after,
+    .sg-menu ul ul > li.has-sub > a:before {
+        display: none;
+    }
+
+    .sg-menu .menu-button {
+        display: block;
+        padding: 17px;
+        color: #FFF;
+        cursor: pointer;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+    .sg-menu .menu-button:after {
+        position: absolute;
+        top: 22px;
+        right: 17px;
+        display: block;
+        height: 4px;
+        width: 20px;
+        border-top: 2px solid #FFF;
+        border-bottom: 2px solid #FFF;
+        content: '';
+    }
+
+    .sg-menu .menu-button:before {
+        position: absolute;
+        top: 16px;
+        right: 17px;
+        display: block;
+        height: 2px;
+        width: 20px;
+        background: #FFF;
+        content: '';
+    }
+
+    .sg-menu .menu-button.menu-opened:after {
+        top: 23px;
+        border: 0;
+        height: 2px;
+        width: 15px;
+        background: #ffffff;
+        -webkit-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+        transform: rotate(45deg);
+    }
+
+    .sg-menu .menu-button.menu-opened:before {
+        top: 23px;
+        background: #ffffff;
+        width: 15px;
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+
+    .sg-menu .submenu-button {
+        position: absolute;
+        z-index: 99;
+        right: 0;
+        top: 0;
+        display: block;
+        border-left: 1px solid rgba(120, 120, 120, 0.2);
+        height: 46px;
+        width: 46px;
+        cursor: pointer;
+    }
+
+    .sg-menu .submenu-button.submenu-opened {
+        background: #225f8c;
+    }
+
+    .sg-menu ul ul .submenu-button {
+        height: 34px;
+        width: 34px;
+    }
+
+    .sg-menu .submenu-button:after {
+        position: absolute;
+        top: 22px;
+        right: 19px;
+        width: 8px;
+        height: 2px;
+        display: block;
+        background: #dddddd;
+        content: '';
+    }
+
+    .sg-menu ul ul .submenu-button:after {
+        top: 15px;
+        right: 13px;
+    }
+
+    .sg-menu .submenu-button.submenu-opened:after {
+        background: #ffffff;
+    }
+
+    .sg-menu .submenu-button:before {
+        position: absolute;
+        top: 19px;
+        right: 22px;
+        display: block;
+        width: 2px;
+        height: 8px;
+        background: #dddddd;
+        content: '';
+    }
+
+    .sg-menu ul ul .submenu-button:before {
+        top: 12px;
+        right: 16px;
+    }
+
+    .sg-menu .submenu-button.submenu-opened:before {
+        display: none;
+    }
+
+}

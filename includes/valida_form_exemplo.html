@@ -1,0 +1,44 @@
+<html>
+<head>
+	<title>Valida Formul&aacute;rio Exemplo</title>
+	<script type="text/javascript" src="../js/funcoes.js" ></script>
+	<link rel="StyleSheet" type="text/css" href="../css/index.css" />
+</head>
+
+<body>
+<div id="div_geral" >
+<form name="form1" method="post" validar="true" msg="Todos Campos abaixo devem ser preenchidos: " nome_campos="true" >  <!-- Formul&aacute;rio Flagado para validação e exibicao dos nomes label do s campos -->
+Nome: &nbsp;
+<input type="text" name="nome" nome_lab="Nome Usu&aacute;rio" /> <!-- Campo que ser&aacute; validado -->
+
+<br />
+Altura: &nbsp;
+<input type="text" name="altura" esc="true" /> <!-- Campo que não ser&aacute; validado -->
+
+<br />
+Idade: &nbsp;
+<select name="idade" nome_lab="Idade" ><!-- Combobox que ser&aacute; validado -->
+<option value="" >Selecione</option>
+<option value="10">> 10</option>
+<option value="20">> 20</option>
+<option value="30">> 30</option>
+</select>
+
+<br /><br />
+Sexo: &nbsp;
+<input type="radio" name="sexo" value="M" id="sexo_m" nome_lab="Sexo" /><label for="sexo_m" >Masculino</label>
+<input type="radio" name="sexo" value="F" id="sexo_f" /><label for="sexo_f" >Feminino</label>
+
+<br /><br />
+Esporte: &nbsp;
+<input type="radio" name="esporte" value="1" id="sexo_1" nome_lab="Sexo" esc="true" /><label for="sexo_1" >Natação</label>
+<input type="radio" name="esporte" value="2" id="sexo_2" /><label for="sexo_2" >Futebol</label>
+
+<br /><br />
+
+<input type="submit" value="Validar Dados" />
+
+</form>
+</div>
+</body>
+</html>

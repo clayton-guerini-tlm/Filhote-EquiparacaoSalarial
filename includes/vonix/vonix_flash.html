@@ -1,0 +1,116 @@
+<html>
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="text/javascript">
+      <!--
+
+      var VonixFlashJS = {
+
+        /* Base methods - Do not modify */
+
+        flashObject: function() {
+          return document.getElementById("VonixFlash");
+        },
+
+        connect: function(action_id, host, agent_code) {
+          return this.flashObject().connect(action_id, host, agent_code);
+        },
+
+        /* Actions - Do not modify */
+
+        doDial: function(action_id, to, name, queue, billing_group_id) {
+          this.flashObject().dial(action_id, to, name, queue, billing_group_id);
+        },
+        doPause: function(action_id, reason) {
+          this.flashObject().pause(action_id, reason);
+        },
+        doUnpause: function(action_id) {
+          this.flashObject().unpause(action_id);
+        },
+        doTag: function(action_id, call_id, tag) {
+          this.flashObject().tag(action_id, call_id, tag);
+        },
+        doStatus: function(action_id, queue) {
+          this.flashObject().status(action_id, queue);
+        },
+        doVersion: function(action_id) {
+          this.flashObject().version(action_id);
+        },
+
+        /* Events - Place business code inside the methods below */
+
+        onConnect: function(date, action_id) {
+
+        },
+        onDial: function(call_id, date, queue, from, to, callfilename, action_id) {
+
+        },
+        onDialAnswer: function(call_id, date) {
+
+        },
+        onDialFailure: function(call_id, date, cause_id, cause_description) {
+
+        },
+        onHangUp: function(call_id, date, cause_id, cause_description) {
+
+        },
+        onReceive: function(call_id, date, queue, from, to, callfilename, action_id) {
+
+        },
+        onReceiveAnswer: function(call_id, date, waiting_seconds) {
+
+        },
+        onReceiveFailure: function(call_id, date, ringing_seconds) {
+
+        },
+        onPause: function(date, reason, action_id) {
+
+        },
+        onUnpause: function(date, reason, pause_seconds, action_id) {
+
+        },
+        onStatus: function(status, location, action_id) {
+
+        },
+        onError: function(action_id, message) {
+
+        },
+        onVersion: function(action_id, version) {
+
+        },
+        onLog: function(message) {
+          var li = document.createElement("LI");
+          document.getElementById("log").appendChild(li);
+          li.innerHTML = message;
+        }
+      }
+
+      //-->
+    </script>
+
+  </head>
+  <body>
+
+    <object id="VonixFlash" type="application/x-shockwave-flash" data="vonix_flash.swf" width="0" height="0">
+      <param name="movie" value="vonix_flash.swf" />
+      <param name="allowScriptAccess" value="always" />
+    </object>
+
+    <p>
+      <a href="#" onclick="VonixFlashJS.connect('action_connection', prompt('Endereço do servidor PABX:'), prompt('Agent')); return false;">Connect</a> |
+      <a href="#" onclick="VonixFlashJS.doDial('action_dial', prompt('Telefone'), 'Teste Flash', 'desenvolvimento', '1'); return false;">Dial</a> |
+      <a href="#" onclick="VonixFlashJS.doPause('action_pause', prompt('Codigo do Motivo de Pausa')); return false;">Pause</a> |
+      <a href="#" onclick="VonixFlashJS.doUnpause('action_unpause'); return false;">Unpause</a> |
+      <a href="#" onclick="VonixFlashJS.doStatus('action_status', prompt('Fila do Agente')); return false;">Status</a> |
+      <a href="#" onclick="VonixFlashJS.doTag('action_tag', prompt('Call ID'), prompt('Tag')); return false;">Tag</a> |
+      <a href="#" onclick="VonixFlashJS.doVersion('action_version'); return false;">Version</a>
+    </p>
+
+    <ul id="log" style="font-family: Courier New; font-size: 9pt;">
+      <li>Ready</li>
+    </ul>
+
+  </body>
+
+</html>
